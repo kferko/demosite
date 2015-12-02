@@ -1,3 +1,9 @@
+body{
+	background-image: url(../img/homebkg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 h1 {
 	font-family: Helvetica;
 	font-size: 16px;
@@ -12,16 +18,12 @@ h2 {
 	color: rgb(153, 0, 0);
 }
 
-ul {
-	list-style-type: circle;
-}
-
 ul#menu {
     padding: 0;
     display: inline-block;
     float: left;
     margin-top: 45px;
-    margin-left: 45px;
+    margin-left: 75px;
 /*    text-align: center;*/
 }
 
@@ -33,47 +35,70 @@ ul#menu li {
 ul#menu li a {
     color: rgb(123, 123, 123);
     font-family: 'Poiret One', cursive;
-	font-size: 22px;
+	font-size: 19px;
+	letter-spacing: 2px;
     padding: 10px 20px;
     text-decoration: none;
 }
 
-/*ul#menu li a:hover {
-    color: rgb(255, 51, 0)
-}*/
+ul#menu li a:hover {
+    color: white;
+    background-color: rgba(229, 0, 43, .7)
+}
+
+ul#menu {
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin-top: 45px;
+    margin-left: 75px;
+/*    text-align: center;*/
+}
+
+ul#menu li a {
+    color: rgb(123, 123, 123);
+    font-family: 'Poiret One', cursive;
+	font-size: 19px;
+	letter-spacing: 2px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: rgba(229, 0, 43, .7)
+}
 
 #mark {
 	display: inline-block;
 	float: left;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 10px;
 }
 
-#l_block {
+#social {
 	display: inline-block;
 	vertical-align: top;
+	float: right;
 	margin-top: 30px;
 	margin-left: 5%;
 	background-color: rgba(255, 255, 255, .5);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	line-height: 24px;
-	padding-right: 20px;
-	padding-left: 20px;
-	width: 150px;
-	font-family: Helvetica;
-	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	width: 10%;
+
+}
+
+#socicon{
+	margin-right: 5px;
+	margin-left: 5px;
 }
 #main_block {
 	display: inline-block;
-	margin-top: 30px;
-	margin-left: 2%;
-	background-color: rgba(255, 255, 255, .8);
+	margin-top: 20%;
+	margin-left: 25%;
+	background-color: rgba(255, 255, 255, .3);
 	padding: 10px 20px 10px 20px;
-	line-height: 24px;
-	width: 60%;
-	font-family: Helvetica;
-	font-size: 12px;	
+	width: 60%;	
 }
 /*
 #bkgbox {
